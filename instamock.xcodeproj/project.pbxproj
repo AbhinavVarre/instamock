@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15BC993D6AD34F01233403F3 /* Pods_instamockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFD49374E7578DAF1C1DB02 /* Pods_instamockTests.framework */; };
+		387665D527EDAD67008A3973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387665D427EDAD67008A3973 /* AppDelegate.swift */; };
+		387665D727EDAD67008A3973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387665D627EDAD67008A3973 /* SceneDelegate.swift */; };
+		387665DC27EDAD67008A3973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387665DA27EDAD67008A3973 /* Main.storyboard */; };
+		387665DF27EDAD67008A3973 /* instamock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 387665DD27EDAD67008A3973 /* instamock.xcdatamodeld */; };
+		387665E127EDAD6B008A3973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387665E027EDAD6B008A3973 /* Assets.xcassets */; };
+		387665E427EDAD6B008A3973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387665E227EDAD6B008A3973 /* LaunchScreen.storyboard */; };
+		387665EF27EDAD6B008A3973 /* instamockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387665EE27EDAD6B008A3973 /* instamockTests.swift */; };
+		387665F927EDAD6B008A3973 /* instamockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387665F827EDAD6B008A3973 /* instamockUITests.swift */; };
+		387665FB27EDAD6B008A3973 /* instamockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387665FA27EDAD6B008A3973 /* instamockUITestsLaunchTests.swift */; };
+		3876660827EDB60B008A3973 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876660727EDB60B008A3973 /* FeedViewController.swift */; };
+		3876660A27EDB618008A3973 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876660927EDB618008A3973 /* LoginViewController.swift */; };
+		38C5BC3C27EDC3270005ECAA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5BC3B27EDC3270005ECAA /* CameraViewController.swift */; };
+		38C5BC4027EDCFB20005ECAA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5BC3F27EDCFB20005ECAA /* PostCell.swift */; };
+		52ABFD83F3A2A82C704AD8E5 /* Pods_instamock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F061A1BC7DAAE75074A4C8E6 /* Pods_instamock.framework */; };
+		F1497E44B0FEE325B6CA14EA /* Pods_instamock_instamockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD95BD1A5B4CA91C482189C9 /* Pods_instamock_instamockUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		387665EB27EDAD6B008A3973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387665C927EDAD67008A3973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387665D027EDAD67008A3973;
+			remoteInfo = instamock;
+		};
+		387665F527EDAD6B008A3973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387665C927EDAD67008A3973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387665D027EDAD67008A3973;
+			remoteInfo = instamock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0634D6ABBEE884D0BA386915 /* Pods-instamock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instamock.debug.xcconfig"; path = "Target Support Files/Pods-instamock/Pods-instamock.debug.xcconfig"; sourceTree = "<group>"; };
+		13E366C57FA8557EBAD2A9A9 /* Pods-instamockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instamockTests.release.xcconfig"; path = "Target Support Files/Pods-instamockTests/Pods-instamockTests.release.xcconfig"; sourceTree = "<group>"; };
+		387665D127EDAD67008A3973 /* instamock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instamock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		387665D427EDAD67008A3973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		387665D627EDAD67008A3973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		387665DB27EDAD67008A3973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		387665DE27EDAD67008A3973 /* instamock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = instamock.xcdatamodel; sourceTree = "<group>"; };
+		387665E027EDAD6B008A3973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387665E327EDAD6B008A3973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		387665E527EDAD6B008A3973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387665EA27EDAD6B008A3973 /* instamockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instamockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387665EE27EDAD6B008A3973 /* instamockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instamockTests.swift; sourceTree = "<group>"; };
+		387665F427EDAD6B008A3973 /* instamockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instamockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387665F827EDAD6B008A3973 /* instamockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instamockUITests.swift; sourceTree = "<group>"; };
+		387665FA27EDAD6B008A3973 /* instamockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instamockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3876660727EDB60B008A3973 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		3876660927EDB618008A3973 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		38C5BC3B27EDC3270005ECAA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		38C5BC3F27EDCFB20005ECAA /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		688599E259B9A033E204580F /* Pods-instamock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instamock.release.xcconfig"; path = "Target Support Files/Pods-instamock/Pods-instamock.release.xcconfig"; sourceTree = "<group>"; };
+		6D9AA9B8847AC4742E544B42 /* Pods-instamockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instamockTests.debug.xcconfig"; path = "Target Support Files/Pods-instamockTests/Pods-instamockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2D7958790C9C137C8B0945C /* Pods-instamock-instamockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instamock-instamockUITests.debug.xcconfig"; path = "Target Support Files/Pods-instamock-instamockUITests/Pods-instamock-instamockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABFD49374E7578DAF1C1DB02 /* Pods_instamockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instamockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE2A9555BD8A0B3F2964CD8 /* Pods-instamock-instamockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instamock-instamockUITests.release.xcconfig"; path = "Target Support Files/Pods-instamock-instamockUITests/Pods-instamock-instamockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD95BD1A5B4CA91C482189C9 /* Pods_instamock_instamockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instamock_instamockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F061A1BC7DAAE75074A4C8E6 /* Pods_instamock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instamock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		387665CE27EDAD67008A3973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ABFD83F3A2A82C704AD8E5 /* Pods_instamock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387665E727EDAD6B008A3973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BC993D6AD34F01233403F3 /* Pods_instamockTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387665F127EDAD6B008A3973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1497E44B0FEE325B6CA14EA /* Pods_instamock_instamockUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E73682C0FE02B82DF03A076 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0634D6ABBEE884D0BA386915 /* Pods-instamock.debug.xcconfig */,
+				688599E259B9A033E204580F /* Pods-instamock.release.xcconfig */,
+				A2D7958790C9C137C8B0945C /* Pods-instamock-instamockUITests.debug.xcconfig */,
+				DBE2A9555BD8A0B3F2964CD8 /* Pods-instamock-instamockUITests.release.xcconfig */,
+				6D9AA9B8847AC4742E544B42 /* Pods-instamockTests.debug.xcconfig */,
+				13E366C57FA8557EBAD2A9A9 /* Pods-instamockTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		387665C827EDAD67008A3973 = {
+			isa = PBXGroup;
+			children = (
+				387665D327EDAD67008A3973 /* instamock */,
+				387665ED27EDAD6B008A3973 /* instamockTests */,
+				387665F727EDAD6B008A3973 /* instamockUITests */,
+				387665D227EDAD67008A3973 /* Products */,
+				0E73682C0FE02B82DF03A076 /* Pods */,
+				B0A267FA9FD546C0997366EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		387665D227EDAD67008A3973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				387665D127EDAD67008A3973 /* instamock.app */,
+				387665EA27EDAD6B008A3973 /* instamockTests.xctest */,
+				387665F427EDAD6B008A3973 /* instamockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387665D327EDAD67008A3973 /* instamock */ = {
+			isa = PBXGroup;
+			children = (
+				387665D427EDAD67008A3973 /* AppDelegate.swift */,
+				387665D627EDAD67008A3973 /* SceneDelegate.swift */,
+				387665DA27EDAD67008A3973 /* Main.storyboard */,
+				38C5BC3F27EDCFB20005ECAA /* PostCell.swift */,
+				387665E027EDAD6B008A3973 /* Assets.xcassets */,
+				387665E227EDAD6B008A3973 /* LaunchScreen.storyboard */,
+				387665E527EDAD6B008A3973 /* Info.plist */,
+				387665DD27EDAD67008A3973 /* instamock.xcdatamodeld */,
+				3876660727EDB60B008A3973 /* FeedViewController.swift */,
+				3876660927EDB618008A3973 /* LoginViewController.swift */,
+				38C5BC3B27EDC3270005ECAA /* CameraViewController.swift */,
+			);
+			path = instamock;
+			sourceTree = "<group>";
+		};
+		387665ED27EDAD6B008A3973 /* instamockTests */ = {
+			isa = PBXGroup;
+			children = (
+				387665EE27EDAD6B008A3973 /* instamockTests.swift */,
+			);
+			path = instamockTests;
+			sourceTree = "<group>";
+		};
+		387665F727EDAD6B008A3973 /* instamockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				387665F827EDAD6B008A3973 /* instamockUITests.swift */,
+				387665FA27EDAD6B008A3973 /* instamockUITestsLaunchTests.swift */,
+			);
+			path = instamockUITests;
+			sourceTree = "<group>";
+		};
+		B0A267FA9FD546C0997366EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F061A1BC7DAAE75074A4C8E6 /* Pods_instamock.framework */,
+				DD95BD1A5B4CA91C482189C9 /* Pods_instamock_instamockUITests.framework */,
+				ABFD49374E7578DAF1C1DB02 /* Pods_instamockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		387665D027EDAD67008A3973 /* instamock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387665FE27EDAD6B008A3973 /* Build configuration list for PBXNativeTarget "instamock" */;
+			buildPhases = (
+				17133BA6EA652FDAE9A540E1 /* [CP] Check Pods Manifest.lock */,
+				387665CD27EDAD67008A3973 /* Sources */,
+				387665CE27EDAD67008A3973 /* Frameworks */,
+				387665CF27EDAD67008A3973 /* Resources */,
+				B446D644356A5F91932A6919 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instamock;
+			productName = instamock;
+			productReference = 387665D127EDAD67008A3973 /* instamock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		387665E927EDAD6B008A3973 /* instamockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3876660127EDAD6B008A3973 /* Build configuration list for PBXNativeTarget "instamockTests" */;
+			buildPhases = (
+				43451AC66231C12E1BC72C8F /* [CP] Check Pods Manifest.lock */,
+				387665E627EDAD6B008A3973 /* Sources */,
+				387665E727EDAD6B008A3973 /* Frameworks */,
+				387665E827EDAD6B008A3973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387665EC27EDAD6B008A3973 /* PBXTargetDependency */,
+			);
+			name = instamockTests;
+			productName = instamockTests;
+			productReference = 387665EA27EDAD6B008A3973 /* instamockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		387665F327EDAD6B008A3973 /* instamockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3876660427EDAD6B008A3973 /* Build configuration list for PBXNativeTarget "instamockUITests" */;
+			buildPhases = (
+				E92AA422C638CD6F9F50FCBD /* [CP] Check Pods Manifest.lock */,
+				387665F027EDAD6B008A3973 /* Sources */,
+				387665F127EDAD6B008A3973 /* Frameworks */,
+				387665F227EDAD6B008A3973 /* Resources */,
+				9A1E52E9D2780D4E8C2FF316 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387665F627EDAD6B008A3973 /* PBXTargetDependency */,
+			);
+			name = instamockUITests;
+			productName = instamockUITests;
+			productReference = 387665F427EDAD6B008A3973 /* instamockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		387665C927EDAD67008A3973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					387665D027EDAD67008A3973 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					387665E927EDAD6B008A3973 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 387665D027EDAD67008A3973;
+					};
+					387665F327EDAD6B008A3973 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 387665D027EDAD67008A3973;
+					};
+				};
+			};
+			buildConfigurationList = 387665CC27EDAD67008A3973 /* Build configuration list for PBXProject "instamock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 387665C827EDAD67008A3973;
+			productRefGroup = 387665D227EDAD67008A3973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387665D027EDAD67008A3973 /* instamock */,
+				387665E927EDAD6B008A3973 /* instamockTests */,
+				387665F327EDAD6B008A3973 /* instamockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		387665CF27EDAD67008A3973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387665E427EDAD6B008A3973 /* LaunchScreen.storyboard in Resources */,
+				387665E127EDAD6B008A3973 /* Assets.xcassets in Resources */,
+				387665DC27EDAD67008A3973 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387665E827EDAD6B008A3973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387665F227EDAD6B008A3973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17133BA6EA652FDAE9A540E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instamock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43451AC66231C12E1BC72C8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instamockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1E52E9D2780D4E8C2FF316 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-instamock-instamockUITests/Pods-instamock-instamockUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-instamock-instamockUITests/Pods-instamock-instamockUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-instamock-instamockUITests/Pods-instamock-instamockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B446D644356A5F91932A6919 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-instamock/Pods-instamock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-instamock/Pods-instamock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-instamock/Pods-instamock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E92AA422C638CD6F9F50FCBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instamock-instamockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		387665CD27EDAD67008A3973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C5BC4027EDCFB20005ECAA /* PostCell.swift in Sources */,
+				387665D527EDAD67008A3973 /* AppDelegate.swift in Sources */,
+				387665D727EDAD67008A3973 /* SceneDelegate.swift in Sources */,
+				3876660827EDB60B008A3973 /* FeedViewController.swift in Sources */,
+				3876660A27EDB618008A3973 /* LoginViewController.swift in Sources */,
+				387665DF27EDAD67008A3973 /* instamock.xcdatamodeld in Sources */,
+				38C5BC3C27EDC3270005ECAA /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387665E627EDAD6B008A3973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387665EF27EDAD6B008A3973 /* instamockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387665F027EDAD6B008A3973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387665FB27EDAD6B008A3973 /* instamockUITestsLaunchTests.swift in Sources */,
+				387665F927EDAD6B008A3973 /* instamockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		387665EC27EDAD6B008A3973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387665D027EDAD67008A3973 /* instamock */;
+			targetProxy = 387665EB27EDAD6B008A3973 /* PBXContainerItemProxy */;
+		};
+		387665F627EDAD6B008A3973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387665D027EDAD67008A3973 /* instamock */;
+			targetProxy = 387665F527EDAD6B008A3973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		387665DA27EDAD67008A3973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387665DB27EDAD67008A3973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		387665E227EDAD6B008A3973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387665E327EDAD6B008A3973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		387665FC27EDAD6B008A3973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		387665FD27EDAD6B008A3973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		387665FF27EDAD6B008A3973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0634D6ABBEE884D0BA386915 /* Pods-instamock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6Z4CQ328B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = instamock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avar.instamock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3876660027EDAD6B008A3973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688599E259B9A033E204580F /* Pods-instamock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6Z4CQ328B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = instamock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avar.instamock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3876660227EDAD6B008A3973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9AA9B8847AC4742E544B42 /* Pods-instamockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6Z4CQ328B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avar.instamockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instamock.app/instamock";
+			};
+			name = Debug;
+		};
+		3876660327EDAD6B008A3973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E366C57FA8557EBAD2A9A9 /* Pods-instamockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6Z4CQ328B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avar.instamockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instamock.app/instamock";
+			};
+			name = Release;
+		};
+		3876660527EDAD6B008A3973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D7958790C9C137C8B0945C /* Pods-instamock-instamockUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6Z4CQ328B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avar.instamockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = instamock;
+			};
+			name = Debug;
+		};
+		3876660627EDAD6B008A3973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE2A9555BD8A0B3F2964CD8 /* Pods-instamock-instamockUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6Z4CQ328B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avar.instamockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = instamock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		387665CC27EDAD67008A3973 /* Build configuration list for PBXProject "instamock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387665FC27EDAD6B008A3973 /* Debug */,
+				387665FD27EDAD6B008A3973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387665FE27EDAD6B008A3973 /* Build configuration list for PBXNativeTarget "instamock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387665FF27EDAD6B008A3973 /* Debug */,
+				3876660027EDAD6B008A3973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3876660127EDAD6B008A3973 /* Build configuration list for PBXNativeTarget "instamockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3876660227EDAD6B008A3973 /* Debug */,
+				3876660327EDAD6B008A3973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3876660427EDAD6B008A3973 /* Build configuration list for PBXNativeTarget "instamockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3876660527EDAD6B008A3973 /* Debug */,
+				3876660627EDAD6B008A3973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		387665DD27EDAD67008A3973 /* instamock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				387665DE27EDAD67008A3973 /* instamock.xcdatamodel */,
+			);
+			currentVersion = 387665DE27EDAD67008A3973 /* instamock.xcdatamodel */;
+			path = instamock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 387665C927EDAD67008A3973 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_instamock_instamockUITests {
+  umbrella header "Pods-instamock-instamockUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
