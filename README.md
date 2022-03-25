@@ -23,4 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/vfHTb6H.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/AbhinavVarre/instamock/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2011%20-%202022-03-25%20at%2006.00.16.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
