@@ -9,6 +9,7 @@ target 'instamock' do
   	pod 'Parse'
 	pod 'Alamofire'
 	pod 'AlamofireImage'
+	pod 'MessageInputBar'
 
 
   target 'instamockTests' do

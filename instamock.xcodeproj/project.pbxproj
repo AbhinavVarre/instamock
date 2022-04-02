@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15BC993D6AD34F01233403F3 /* Pods_instamockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFD49374E7578DAF1C1DB02 /* Pods_instamockTests.framework */; };
+		3825B88F27F8075D00DC1F18 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3825B88E27F8075D00DC1F18 /* CommentCell.swift */; };
 		387665D527EDAD67008A3973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387665D427EDAD67008A3973 /* AppDelegate.swift */; };
 		387665D727EDAD67008A3973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387665D627EDAD67008A3973 /* SceneDelegate.swift */; };
 		387665DC27EDAD67008A3973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387665DA27EDAD67008A3973 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		0634D6ABBEE884D0BA386915 /* Pods-instamock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instamock.debug.xcconfig"; path = "Target Support Files/Pods-instamock/Pods-instamock.debug.xcconfig"; sourceTree = "<group>"; };
 		13E366C57FA8557EBAD2A9A9 /* Pods-instamockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instamockTests.release.xcconfig"; path = "Target Support Files/Pods-instamockTests/Pods-instamockTests.release.xcconfig"; sourceTree = "<group>"; };
+		3825B88E27F8075D00DC1F18 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		387665D127EDAD67008A3973 /* instamock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instamock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387665D427EDAD67008A3973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		387665D627EDAD67008A3973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				3876660727EDB60B008A3973 /* FeedViewController.swift */,
 				3876660927EDB618008A3973 /* LoginViewController.swift */,
 				38C5BC3B27EDC3270005ECAA /* CameraViewController.swift */,
+				3825B88E27F8075D00DC1F18 /* CommentCell.swift */,
 			);
 			path = instamock;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				3876660A27EDB618008A3973 /* LoginViewController.swift in Sources */,
 				387665DF27EDAD67008A3973 /* instamock.xcdatamodeld in Sources */,
 				38C5BC3C27EDC3270005ECAA /* CameraViewController.swift in Sources */,
+				3825B88F27F8075D00DC1F18 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
